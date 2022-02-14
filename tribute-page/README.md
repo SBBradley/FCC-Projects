@@ -1,8 +1,6 @@
 # Dimebag Darrell Tribute Page
-A webpage dedicated to the life of metal guitarist Dimebag Darrell.
+A web page dedicated to the life of metal guitarist Dimebag Darrell.
 
-## User Interface
-Below are some screenshots of the program during execution:
+## Web Page
+Below is a screenshot of the web page:
 
-## Video Demo
-Below is a short video demonstrating the program from start to finish:
