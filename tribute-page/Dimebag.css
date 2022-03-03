@@ -1,0 +1,29 @@
+    #main {
+        font-family: Magra;
+        text-align: center;
+        font-size: 20px;
+        color: tan;
+    }
+
+    #img-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #image {
+        width: 400px;
+        max-width: 400px;
+        border-width: 10px;
+        border-color: black;
+        border-style: solid;
+    }
+
+    #tribute-info {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    #unordered-list {
+        text-align: left;
+        font-size: 20px;
+    }
