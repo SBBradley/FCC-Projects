@@ -8,5 +8,5 @@ All projects I have created from freeCodeCamp.org's curriculum.
 4. Run or open desired file.
 
 ## Responsive Web Design Files:
-tribute-page<br>
-survey-form<br>
+Tribute Page<br>
+Survey Form<br>
