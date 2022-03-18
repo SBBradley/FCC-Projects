@@ -1,4 +1,4 @@
-# FCC-projects
+# FCC-Projects
 このレポジトリーはfreeCodeCamp.orgのカリキュラムから作成したプロジェクトです。
 
 ## インスタレーション／使用方法
