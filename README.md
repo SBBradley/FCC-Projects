@@ -1,4 +1,4 @@
-# FCC-projects
+# FCC-Projects
 All projects I have created from freeCodeCamp.org's curriculum.
 
 ## Installation / Usage
