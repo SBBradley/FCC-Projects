@@ -1,74 +1,110 @@
 <!DOCTYPE html>
 <!--A web page survey form about Japanese dog breeds.-->
 
-<link href = "https://fonts.googleapis.com/css?family=Caladea" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Caladea" rel="stylesheet" type="text/css">
 
-<title id = "title"> 
+<title id="title"> 
 <h1>
     Japanese Dog Breed Survey
 </h1> 
 </title>
 
-<main id = "main">
-
+<main id="main">
 <head>
     <link rel="stylesheet" href="DogBreedSurvey.css">
-    <h1 id = "form-name">
+    <h1 id="form-name">
         Japanese Dog Breed Survey
     </h1> 
-<p id = "description">
+
+<p id="description">
 Please fill out this survey about your favorite Japanese dog breed. <br>
 Information about the 11 breeds can be found here:
-<a href = "https://www.thesprucepets.com/japanese-dog-breeds-4799113" target= "_blank">www.thesprucepets.com</a>
+<a href="https://www.thesprucepets.com/japanese-dog-breeds-4799113" target= "_blank">www.thesprucepets.com</a>
 </p>
 </head>
 
-<body>
+<body style= "background-color: beige">
 
-<form id = "survey-form">
-<ul>
-<li>Full Name: <input id = "name" type = "text" required></li><br>
-<li>Email address: <input id = "email" type = "text" required></li><br>
-<li>Current # of pets: <input id = "number-of-pets" type = "text" required></li><br>
-<li>Do you have any experience with dog ownership? <input id = "experience" type = "text" required></li><br>
-<li>What are traits you are looking for in a dog? <input id = "traits" type = "text" required></li><br>
-<li>What is your family and living situation? <input id = "living-situation" type = "text" required></li><br>
-<li>Comments: <br> <textarea name="commentss" id="comments-label" cols="60" rows="5"></textarea></li>
-</ul>
-
-<button id="submit-button" type = "submit">Submit</button><br><br><br>
-</form>
-
-These are the 11 Japanese dog breeds in alphabetical order:<br><br>
-
-<div class="row1">
+<div class="row">
     <div class="column">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Dj2kG4Zqa7P7PFjiC6ZmYwHaI_%26pid%3DApi&f=1" id="image" style="width:100%"><br>
-    Akita Inu
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Dj2kG4Zqa7P7PFjiC6ZmYwHaI_%26pid%3DApi&f=1" id="image"><br>
+        <figcaption id ="caption">Akita Inu</figcaption>
     </div>
     <div class="column">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.lrxNi4xD_ZgN0gpJXbrcFgHaJE%26pid%3DApi&f=1" id="image" style="width:100%"><br>
-    Hokkaido Inu 
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.lrxNi4xD_ZgN0gpJXbrcFgHaJE%26pid%3DApi&f=1" id="image"><br>
+        <figcaption id ="caption">Hokkaido Inu </figcaption>
     </div>
     <div class="column">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.oby38u_rWHu32dLr_9AASAHaHY%26pid%3DApi&f=1" id="image" style="width:100%"><br>
-    Japanese Chin
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.oby38u_rWHu32dLr_9AASAHaHY%26pid%3DApi&f=1" id="image"><br>        
+        <figcaption id ="caption">Japanese Chin</figcaption>
+    </div>
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.lJLGSpdFjJ-UZ9evonTPlAHaIF%26pid%3DApi&f=1" id="image"><br>         
+        <figcaption id ="caption">Japanese Spitz</figcaption>
     </div>
 </div>
 
-Japanese Spitz <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.lJLGSpdFjJ-UZ9evonTPlAHaIF%26pid%3DApi&f=1" id="image"><br>
-Japanese Terrier <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.__cV3sGLCllMKvEKuDQdVgHaHa%26pid%3DApi&f=1" id="image"><br>
-Kai Ken <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.r5NweUQgovrpedAjLFt46gHaHa%26pid%3DApi&f=1" id="image"><br>
+<div class="row">
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.__cV3sGLCllMKvEKuDQdVgHaHa%26pid%3DApi&f=1" id="image"><br>          
+        <figcaption id ="caption">Japanese Terrier</figcaption>
+    </div>
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.r5NweUQgovrpedAjLFt46gHaHa%26pid%3DApi&f=1" id="image"><br>        
+        <figcaption id ="caption">Kai Ken</figcaption>
+    </div>
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.k07Ikn7mmZv85B9iaD3xEAHaHa%26pid%3DApi&f=1" id="image"><br>         
+        <figcaption id ="caption">Kishu Ken</figcaption>
+    </div>
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vnWfnRGxAR5TqVdPUGVhRgHaE8%26pid%3DApi&f=1" id="image"><br>         
+        <figcaption id ="caption">Ryukyu Inu</figcaption>
+    </div>
+</div>
 
+<div class="row">
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.fbL3Y9ozu-q6X06GdcR22AHaH_%26pid%3DApi&f=1" id="image"><br>        
+        <figcaption id ="caption">Shiba Inu</figcaption>
+    </div>
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.bP6zEw61oi5h8R3HlNSZ6gHaGk%26pid%3DApi&f=1" id="image"><br>
+        <figcaption id ="caption">Shikoku Inu</figcaption>
+    </div>
+    <div class="column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n_sm2T9PBKFKNVOL0nvvdQHaJF%26pid%3DApi&f=1" id="image"><br>
+        <figcaption id ="caption">Tosa Inu</figcaption>
+    </div>
+</div>
 
-Kishu Ken <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.k07Ikn7mmZv85B9iaD3xEAHaHa%26pid%3DApi&f=1" id="image"><br>
-Ryukyu Inu <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vnWfnRGxAR5TqVdPUGVhRgHaE8%26pid%3DApi&f=1" id="image"><br>
-Shiba Inu <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.fbL3Y9ozu-q6X06GdcR22AHaH_%26pid%3DApi&f=1" id="image"><br>
+<form id="survey-form">
+<ul>
+<li>Choose a breed: <select name="Breeds" id="breed-dropdown">
+    <option disabled hidden selected>Select One</option>
+    <option value="Akita Inu">Akita Inu</option>
+    <option value="Hokkaido Inu">Hokkaido Inu</option>
+    <option value="Japanese Chin">Japanese Chin</option>
+    <option value="Japanese Spitz">Japanese Spitz</option>
+    <option value="Japanese Terrier">Japanese Terrier</option>
+    <option value="Kai Ken">Kai Ken</option>
+    <option value="Kishu Ken">Kishu Kenu</option>
+    <option value="Ryukyu Inu">Ryukyu Inu</option>
+    <option value="Shiba Inu">Shiba Inu</option>
+    <option value="Shikoku Inu">Shikoku Inu</option>
+    <option value="Tosa Inu">Tosa Inu</option>
+</select></li><br>
+<li>Full Name: <input id="name" type="text" placeholder="Name" required></li><br>
+<li>Email address: <input id="email" type="text" placeholder="Email" required></li><br>
+<li>Current # of pets: <input id="number-of-pets" placeholder="# of pets" type="text" required></li><br>
+<li>Do you have any experience with dog ownership? <input id="experience" type="text" placeholder="I have..." required></li><br>
+<li>What are some traits you are looking for in a dog? <input id="traits" type="text" placeholder="Playful, Calm, Stoic" required></li><br>
+<li>What is your family and living situation? <input id="living-situation" type="text" placeholder="I have..." required></li><br>
+<li>Any extra comments: <br> <textarea name="comments" placeholder="Enter your comments here..." id="comments-label" cols="60" rows="5"></textarea></li>
+</ul>
 
-
-Shikoku Inu <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.bP6zEw61oi5h8R3HlNSZ6gHaGk%26pid%3DApi&f=1" id="image"><br>
-Tosa Inu <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n_sm2T9PBKFKNVOL0nvvdQHaJF%26pid%3DApi&f=1" id="image"><br>
-
+<button id="submit-button" type="submit">Submit</button><br><br><br>
+</form>
 
 </body>
 </main>
