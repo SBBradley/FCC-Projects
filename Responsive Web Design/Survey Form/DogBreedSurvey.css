@@ -1,3 +1,4 @@
+/*id attributes*/
 #main {
     font-family: Caladea;
     font-size: 30px;
@@ -7,12 +8,13 @@
     text-align: center;
 }
 
-#survey-form {
-    text-align: center;
+#form {
+    background: rgb(100, 100, 235);
 }
 
 #description {
     text-align: center;
+    font-size: 35px;
 }
 
 #caption {
@@ -24,12 +26,61 @@
     height: 200px;
 }
 
+#breed-dropdown,
+#name, 
+#email,
+#number-of-pets,
+#experience,
+#traits,
+#family-composition,
+#living-situation
+ {
+    border-radius: 8px;
+    border: none;
+    font-size: 20px; 
+    width: 900px;
+    height: 50px;
+}
+
+#comments-textbox {
+    font-family: Caladea;
+    font-size: 20px;
+    width: 900px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+}
+
+#submit-button {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 70px;
+
+    font-size: 30px;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    border: none;
+}
+
+#submit-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*Class attributes*/
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
 .row {
+    justify-content: center;
     display: flex;
     padding: 5px;
 }
 
 .column {
-    flex: 25%;
-    padding: 5px;
+    padding: 3px;
 }
