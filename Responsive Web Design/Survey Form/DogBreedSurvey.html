@@ -3,16 +3,13 @@
 
 <link href="https://fonts.googleapis.com/css?family=Caladea" rel="stylesheet" type="text/css">
 
-<title id="title"> 
-    Japanese Dog Breed Survey
-</title>
+<h1 id="title"> 
+  Japanese Dog Breed Survey
+</h1>
 
 <main id="main">
 <head>
     <link rel="stylesheet" href="DogBreedSurvey.css">
-    <h1 id="form-name">
-        Japanese Dog Breed Survey
-    </h1> 
 </head>
 
 <body id="body" style="background-color: skyblue;">
@@ -70,17 +67,19 @@
     </div>   
 </div>
 
-<p id="description">
+<div class="container">
+<form id="survey-form">
+  
+  <p id="description">
     Please fill out this survey about your favorite Japanese dog breed. <br>
     Information about the 11 breeds can be found here:
-    <a href="https://www.thesprucepets.com/japanese-dog-breeds-4799113" target= "_blank">www.thesprucepets.com</a><br><br>
+    <a id="breed-link" href="https://www.thesprucepets.com/japanese-dog-breeds-4799113" target= "_blank">www.thesprucepets.com</a><br>
 </p>
-
-<div class="container">
-<form id="form">
+  
 <ul>
+  <br>
     <li>Choose a breed:<br>
-        <select name="Breeds" id="breed-dropdown">
+        <select name="Breeds" id="dropdown">
         <option disabled hidden selected>Select One</option>
         <option value="Akita Inu">Akita Inu</option>
         <option value="Hokkaido Inu">Hokkaido Inu</option>
@@ -94,17 +93,41 @@
         <option value="Shikoku Inu">Shikoku Inu</option>
         <option value="Tosa Inu">Tosa Inu</option>
         </select></li><br>
-    <li>Full Name:<br><input id="name" type="text" placeholder="Enter full name" required></li><br>
-    <li>Email address:<br><input id="email" type="text" placeholder="Enter email" required></li><br>
-    <li>Current # of pets:<br><input id="number-of-pets" placeholder="Enter number of pets" type="text" required></li><br>
-    <li>Do you have any experience with dog ownership:<br><input id="experience" type="text" placeholder="Enter experience with dog ownership" required></li><br>
-    <li>What are some traits you look for in a dog:<br><input id="traits" type="text" placeholder="Enter desirable traits" required></li><br>
-    <li>What is your family composition:<br><input id="family-composition" type="text" placeholder="Single, married, children, etc." required></li><br>
-    <li>What is your living situation:<br><input id="living-situation" type="text" placeholder="House, apartment, condo, etc." required></li><br>
-    <li>Any extra comments:<br><textarea name="comments" placeholder="Enter your comments here..." id="comments-textbox" cols="60" rows="5"></textarea></li>
+  
+  <li><label id="name-label" for="name">Full name:</label><br>
+      <input id="name" type="text" placeholder="Enter full name" required></li><br>
+  
+    <li><label id="email-label" for="email">Email address:</label><br>
+      <input id="email" type="email" placeholder="Enter email" required></li><br>
+  
+    <li><label id="number-label" for="number">Current # of pets:</label><br>
+      <input id="number" placeholder="0" type="number" min="0" max ="20" required></li><br>
+  
+    <li><label id="experience-label" for="experience">Do you have any experience with dog ownership:</labelid><br>
+            <input type="radio" id="yes" name="exp" value="yes">
+                <label for="yes">Yes</label>
+            <input type="radio" id="no" name="exp" value="no">
+                <label for="no">No</label><br></li><br>
+  
+    <li><label id="traits-label" for="traits">What are some traits you look for in a dog:</label><br>
+      <input id="traits" type="text" placeholder="Enter desirable traits" required></li><br>
+  
+    <li><label id="family-label" for="family">What is your family composition:</label><br><br>
+            <input type="checkbox" id="single" name="family" value="single">
+                <label for="single"> Single</label><br>
+            <input type="checkbox" id="married" name="family" value="married">
+                <label for="married"> Married</label><br>
+            <input type="checkbox" id="children" name="family" value="children">
+                label for="children"> Children</label></li><br>
+      
+    <li><label id="living-label" for="living">What is your living situation:</label><br>
+      <input id="living" type="text" placeholder="House, apartment, condo, etc." required></li><br>
+  
+    <li><label id="comments-label" for="comments">Any extra comments:</label><br>
+      <textarea name="comments" placeholder="Enter your comments here..." id="comments-textbox" cols="60" rows="5"></textarea></li>
 </ul>
 
-<button id="submit-button" type="submit">Submit</button><br>
+<button id="submit" type="submit">Submit</button><br>
 </form>
 </div>
 
