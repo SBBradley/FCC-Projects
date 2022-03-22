@@ -4,21 +4,21 @@
         font-size: 20px;
         color: tan;
     }
-
+    
     #img-div {
         justify-content: center;
         display: flex;
         padding: 5px;
     }
-
+    
     #column {
         padding: 3px;
     }
-
+    
     .legacy {
         text-align: left;
     }
-
+    
     #image {
         display: block;
         max-width: 600px;
@@ -27,21 +27,21 @@
         border-color: black;
         border-style: solid;
     }
-
+    
     #img-caption {
         text-align: center;
     }
-
+    
     #tribute-info {
         text-align: left;
         font-size: 20px;
     }
-
+    
     #unordered-list {
         text-align: left;
         font-size: 20px;
     }
-
+    
     #tribute-link {
         color: orange;
     }
